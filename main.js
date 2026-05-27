@@ -1,6 +1,5 @@
 // Typing Effect
-const typingText =
-  " حاجة بسيطة عشانك يا ماما و يارب تفرحك❤️ انتي قدمتيلي كتير و كنتي جمبي في اوقات صعبة كتير اوي اوي ربنا يخليكي ليا و ميرحمني من خوفك عليا يا حبيبتي  ";
+const typingText = " ❤️حاجة بسيطة عشانك يا ميس و يارب تفرحك  ";
 let i = 0;
 
 function typing() {
@@ -15,9 +14,7 @@ typing();
 
 // Surprise Button
 document.getElementById("btn").onclick = function () {
-  alert(
-    "اه ده انتي حمارة بقا عموما مبسوط انك موجودة و بجد وحشاني اوي اوي و حبي ليكي مقلش خالص  ❤️",
-  );
+  alert("اه ده انتي حمارة بقا عموما يارب تكوني مبسوطة ديما   ❤️");
 };
 
 // Hearts Animation
